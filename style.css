@@ -1,0 +1,62 @@
+/* Copyright (c) 2018-2022 Ivan Teplov */
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    background: #8e8d8d;
+}
+
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto auto 2%;
+}
+
+main {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+button {
+    font-size: 1.1em;
+    border-radius: 20px;
+    border: 1px solid #7b7b7b;
+    outline: 0;
+    box-shadow: 0px 0px 5px #7b7b7b;
+    padding: 0.2% 1%;
+}
+
+button.sure {
+    background: linear-gradient( to bottom, #97b8ed 49%, #418bff 50%, #6384ba );
+}
+
+button.cancel {
+    background: linear-gradient( to bottom, #ddd 49%, #c1c1c1 50%, #b2b2b2 );
+}
+
+canvas {
+    -ms-align-self: center;
+    align-self: center;
+    box-shadow: inset 0px 0px 5px #898989;
+    background: #000000;
+}
